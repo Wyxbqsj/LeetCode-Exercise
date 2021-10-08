@@ -10,3 +10,15 @@
 <br>10月7日——字符串切片时间窗，漏洞百出，（一个字母一个字母比较难点在于无法确定开始字母的位置，没想到好办法，卒），用切片的话第一个位置的元素比较容易确定，在haystack[i:i+len(needle)]错了很久，之前写成了haystack[i:len(needle)]，这样的话切片的长度在缩小。
 <br>10月8日——[Sunday算法求解](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-8-strStr.py),关键点：偏移位用来记录元素的起始位置。两个方法的思路差别：
 ![image](https://iknow-pic.cdn.bcebos.com/42166d224f4a20a42849b35782529822730ed0cf)
+<br>（5）简单题[2021-10-8最后一个单词的长度](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-8-lengthOfLastWord.py)
+<br>先去除字符串末尾的空格，再反向遍历
+<br>反向遍历list两种写法:
+```
+1)while loop
+i=len(list)-1
+while i>=0:
+  i=i-1
+
+2)for loop
+for i in range(len(list)-1,-1,-1):
+```
