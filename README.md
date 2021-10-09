@@ -22,3 +22,12 @@ while i>=0:
 2)for loop
 for i in range(len(list)-1,-1,-1):
 ```
+<br>（6）简单题[2021-10-9二进制求和](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-9-addBinary.py)
+<br>借鉴「列竖式」的方法，末尾对齐，逐位相加。在十进制的计算中「逢十进一」，二进制中我们需要「逢二进一」。学到的两个语法知识：
+```
+在字符串前补0，如将‘aa’补成长度为5的字符串‘000aa’
+s='aa'
+s=zfill(5)
+倒着输出list或者字符串
+str=str[::-1]
+```
