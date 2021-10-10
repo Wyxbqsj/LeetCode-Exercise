@@ -31,3 +31,19 @@ s=zfill(5)
 倒着输出list或者字符串
 str=str[::-1]
 ```
+<br>（7）[2021-10-10验证回文串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-10-isPalindrome.py)
+<br>双指针做烂，但是学到了判断字符串是否是空格或数字还是字母的函数：
+```
+    str.isalnum() 所有字符都是数字或者字母
+    str.isalpha() 所有字符都是字母
+    str.isdigit() 所有字符都是数字，如果带小数点，则会返回False
+    str.isspace() 所有字符都是空白字符、t、n、r
+    str.lower() 将字符串转成小写字母
+    str.upper() 将字符串转成大写字母
+```
+
+
+
+
+
+
