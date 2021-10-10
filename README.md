@@ -41,7 +41,25 @@ str=str[::-1]
     str.lower() 将字符串转成小写字母
     str.upper() 将字符串转成大写字母
 ```
-
+<br>（8）[2020-10-10Excel表名称](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-10-convertToTitle.py)
+<br>better solution:
+```
+# 这是一道从1开始的26进制转换题。
+# 对于一般性的进制转换题目，只需要不断地对 columnNumbercolumnNumber 进行 % 运算取得最后一位，然后对 columnNumber 进行 / 运算，将已经取得的位数去掉，直到 columnNumber为 0即可。
+# 一般性的进制转换题目无须进行额外操作，是因为我们是在「每一位数值范围在 [0,x)」的前提下进行「逢 x进一」。
+# 但本题需要我们将从 1 开始，因此在执行「进制转换」操作前，我们需要先对 columnNumber 执行减一操作，从而实现整体偏移。
+class Solution:
+    def convertToTitle(self, columnNumber: int) -> str:
+        ans = []
+        # 10进制 转换为 26进制，A对应1，B对应2,....Z对应26
+        while columnNumber > 0:
+            # 最右边位为取模运算的结果
+            columnNumber -= 1
+            # A的ASC码是65，常识a-z：97-122，A-Z：65-90，0-9：48-57
+            ans.append(chr(columnNumber%26 + 65)) #先直接用list来存，将ASC码转成字符chr()
+            columnNumber //= 26
+        return ''.join(ans[::-1]) #输出结果转成字符串的方式，ans[::-1]求ans的倒序输出
+```
 
 
 
