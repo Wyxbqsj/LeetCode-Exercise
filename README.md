@@ -1,6 +1,8 @@
 # LeetCode-Exercise
 力扣刷题争取每日一练，数组已经做了25道，无更多记录，从【字符串】开始进行记录整理
-#### 1.字符串：
+## 目录
+#### 1. [字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/String)
+## 字符串：
 <br>（1）简单题 [2021-10-6罗马数字转整数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-6-romanToInt.py)
 <br>（2）简单题 [2021-10-6最长公共前缀](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-6-longestCommonPrefix.py)
 <br>10月6日——暴力循环法，从题目可知：最长公共前缀的最长长度一定是字符串数组中长度最短哪个字符串。首先找出长度最短的字符串str，假如str="abcf"。依次对'abcf'、'abc'、'ab'、'a'进行筛选，判断哪个是所有其他字符串的前缀。
@@ -31,7 +33,7 @@ s=zfill(5)
 倒着输出list或者字符串
 str=str[::-1]
 ```
-<br>（7）[2021-10-10验证回文串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-10-isPalindrome.py)
+<br>（7）简单题[2021-10-10验证回文串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-10-isPalindrome.py)
 <br>双指针做烂，但是学到了判断字符串是否是空格或数字还是字母的函数：
 ```
     str.isalnum() 所有字符都是数字或者字母
@@ -41,7 +43,7 @@ str=str[::-1]
     str.lower() 将字符串转成小写字母
     str.upper() 将字符串转成大写字母
 ```
-<br>（8）[2020-10-10Excel表名称](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-10-convertToTitle.py)
+<br>（8）简单题[2020-10-10Excel表名称](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-10-convertToTitle.py)
 <br>better solution:
 ```
 # 这是一道从1开始的26进制转换题。
@@ -60,7 +62,12 @@ class Solution:
             columnNumber //= 26
         return ''.join(ans[::-1]) #输出结果转成字符串的方式，ans[::-1]求ans的倒序输出
 ```
-
+<br>（9）简单题[2021-20-11Excel表列序号](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-11-titleToNumber.py)
+<br>特殊的进制转换：将26进制转成10进制。学到的两个函数：
+```
+ord(c) #将字符c转成ASCII码
+chr(i) #将ASCII码i转成字符
+```
 
 
 
