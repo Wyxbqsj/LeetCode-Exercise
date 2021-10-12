@@ -68,7 +68,8 @@ class Solution:
 ord(c) #将字符c转成ASCII码
 chr(i) #将ASCII码i转成字符
 ```
-
+<br>（10）简单题[2021-10-11同构字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-11-isIsomorphic.py)
+<br>双映射求解，判断两遍。利用zip()函数同时遍历多个数组
 
 
 
