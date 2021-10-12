@@ -62,7 +62,7 @@ class Solution:
             columnNumber //= 26
         return ''.join(ans[::-1]) #输出结果转成字符串的方式，ans[::-1]求ans的倒序输出
 ```
-<br>（9）简单题[2021-20-11Excel表列序号](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-11-titleToNumber.py)
+<br>（9）简单题[2021-10-11Excel表列序号](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-11-titleToNumber.py)
 <br>特殊的进制转换：将26进制转成10进制。学到的两个函数：
 ```
 ord(c) #将字符c转成ASCII码
