@@ -70,6 +70,6 @@ chr(i) #将ASCII码i转成字符
 ```
 <br>（10）简单题[2021-10-11同构字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-11-isIsomorphic.py)
 <br>双映射求解，判断两遍。利用zip()函数同时遍历多个数组
-
+<br>（11）简单题[2021-10-12有效的字母异位词](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-12-isAnagram.py),哈希表求解每个字母出现的次数再比较即可，也可以只求一个字符串中字母出现的次数，再遍历另一个，遇到出现的字母，则对应count-1，直到都为0则返回true，该方法需要的空间更小。
 
 
