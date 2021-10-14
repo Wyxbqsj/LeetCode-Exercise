@@ -87,6 +87,13 @@ def listcreateTree(rootClass,rootList,i): #输入是rootList，输出是rootClas
     return rootClass #rootList遍历完了，返回整棵树
 ```
 方法1：[DFS](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-13-binaryTreePaths.py)，递归实现，在深度优先搜索遍历二叉树时，我们需要考虑当前的节点以及它的孩子节点。如果当前节点不是叶子节点，则在当前的路径末尾添加该节点，并继续递归遍历该节点的每一个孩子节点。如果当前节点是叶子节点，则在当前路径末尾添加该节点后我们就得到了一条从根节点到叶子节点的路径，将该路径加入到答案即可。
-
+<br>（13）[单词规律](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-wordPattern.py),依然是双映射求解，注意从字符串中提取出单词，不需要遍历提取，可以用split()函数：
+```
+s = "dog cat cat dog"
+li = s.split(' ') #将s由空格分开
+print(li) #结果输出为['dog','cat','cat','dog']
+```
+<br>（14）[反转字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseString.py)，双指针。
+<br>（15）[反转字符串中的元音字母](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseVowels.py)，其实不必非要用字典存大小写元音字母，直接用list存，看看遍历到的字母在不在这个list中即可。
 
 
