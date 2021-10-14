@@ -93,7 +93,7 @@ s = "dog cat cat dog"
 li = s.split(' ') #将s由空格分开
 print(li) #结果输出为['dog','cat','cat','dog']
 ```
-<br>（14）[反转字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseString.py)，双指针。
+（14）[反转字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseString.py)，双指针。
 <br>（15）[反转字符串中的元音字母](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseVowels.py)，其实不必非要用字典存大小写元音字母，直接用list存，看看遍历到的字母在不在这个list中即可。
 
 
