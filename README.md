@@ -95,6 +95,6 @@ print(li) #结果输出为['dog','cat','cat','dog']
 ```
 （14）[反转字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseString.py)，双指针。
 <br>（15）[反转字符串中的元音字母](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-14-reverseVowels.py)，其实不必非要用字典存大小写元音字母，直接用list存，看看遍历到的字母在不在这个list中即可。
-<br>[赎金信](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-15-canConstruct.py)，哈希表
-<br>[字符串中第一个唯一字符](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-15-firstUniqChar.py)，可直接用counter函数统计字母出现的频数，无需构建哈希表。
+<br>（16）[赎金信](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-15-canConstruct.py)，哈希表
+<br>（17）[字符串中第一个唯一字符](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-15-firstUniqChar.py)，可直接用counter函数统计字母出现的频数，无需构建哈希表。
 
