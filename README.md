@@ -101,3 +101,6 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（19）[判断子序列](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-17-isSubsequence.py)
 <br>方法1：[双指针贪心法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-17-isSubsequence.py)
 <br>方法2：
+<br>（20）[FizzBuzz](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-18-fizzBuzz.py)
+<br>（21）[字符串相加](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-18-addString.py)，模拟加法，满十进一。
+<br>（22）[最长回文串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-18-longestPalindrome.py)
