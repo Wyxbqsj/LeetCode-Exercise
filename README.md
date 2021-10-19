@@ -104,3 +104,13 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（20）[FizzBuzz](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-18-fizzBuzz.py)
 <br>（21）[字符串相加](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-18-addString.py)，模拟加法，满十进一。
 <br>（22）[最长回文串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-18-longestPalindrome.py)
+<br>（23）[无重复字符的最长字串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-19-lengthOfLongestSubstring.py)，注意滑动窗口的解法，还有字串和子序列的区别，比如，对于字符串s = "pwwkew"，其无重复字符的最长子串是 "wke"，所以该题答案为3，注意答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+
+
+
+
+
+
+
+
+
