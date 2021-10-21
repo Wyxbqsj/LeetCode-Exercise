@@ -107,7 +107,7 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（23）[无重复字符的最长字串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-19-lengthOfLongestSubstring.py)，注意滑动窗口的解法，还有字串和子序列的区别，比如，对于字符串s = "pwwkew"，其无重复字符的最长子串是 "wke"，所以该题答案为3，注意答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
 <br>（24）[最长回文串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-20-longestPalindrome.py)
 <br>方法1：[动态规划](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-20-longestPalindrome.py)，暴力解法，将长度为1到len(s)长度的字符串全部判断一遍是不是字符串，最后再找出其中最长的那个。
-
+<br>方法2：[中心扩展法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-21-longestPalindrome.py)，从边界情况（1个字符和2个字符两种边界情况）向外扩展，枚举所有的「回文中心」并尝试「扩展」，直到无法扩展为止，此时的回文串长度即为此「回文中心」下的最长回文串长度。我们对所有的长度求出最大值，即可得到最终的答案。
 
 
 
