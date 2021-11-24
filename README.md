@@ -1,5 +1,5 @@
 # LeetCode-Exercise
-力扣刷题争取每日一练，数组已经做了25道，无更多记录，从【字符串】开始进行记录整理
+力扣刷题争取每日一练，从【字符串】开始进行记录整理
 ## 目录
 #### 1. 字符串：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise#%E5%AD%97%E7%AC%A6%E4%B8%B2), [代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/String)
 ## 字符串：
