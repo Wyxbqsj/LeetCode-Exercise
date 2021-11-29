@@ -112,7 +112,7 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（26）字符串转换整数：
 <br>[解法一：冗长的暴力判断法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-25-myAtoi.py)，字符串处理的题目往往涉及复杂的流程以及条件情况，如果直接上手写程序，一不小心就会写出极其臃肿的代码。
 <br>[解法二：自动机]
-
+<br>（27）[整数转罗马字符](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-29-intToRoman.py)，模拟的方法来解决，用一个字典+一个列表+一重循环即可
 
 
 
