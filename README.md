@@ -111,7 +111,8 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（25）[Z字形变换](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-24-convert.py)，难，需要找规律，看看flag的妙用。
 <br>（26）字符串转换整数：
 <br>[解法一：冗长的暴力判断法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-25-myAtoi.py)，字符串处理的题目往往涉及复杂的流程以及条件情况，如果直接上手写程序，一不小心就会写出极其臃肿的代码。
-<br>[解法二：自动机]
+<br>[解法二：自动机](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-28-myAtoi.py)，我们的程序在每个时刻有一个状态 s，每次从序列中输入一个字符 c，并根据字符 c 转移到下一个状态 s'。这样，我们只需要建立一个覆盖所有情况的从 s 与 c 映射到 s' 的表格即可解决题目中的问题。
+<br>[解法三：解法一的改进](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-30-myAtoi.py)，添加一个start变量省去多个if判断句来查看除空格外的第一个字符是什么。
 <br>（27）[整数转罗马字符](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-29-intToRoman.py)，模拟的方法来解决，用一个字典+一个列表+一重循环即可
 
 
