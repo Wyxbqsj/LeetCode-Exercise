@@ -19,7 +19,7 @@ class Solution:
                 flag=-1
                 i=i+1
             elif c.isdigit():
-                num=c-'0'
+                num=int(c)
                 res=res*10+num
                 i=i+1
             else:
