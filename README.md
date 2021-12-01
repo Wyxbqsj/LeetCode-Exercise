@@ -118,5 +118,5 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（28）电话号码的字母组合：
 <br>[解法一：回溯法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-30-letterCombinations.py)，当题目中出现 “所有组合” 等类似字眼时，我们第一感觉就要想到用回溯。
 <br>[解法二：队列](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-11-30-letterCombinations2.py)，比解法一复杂度略低。
-
+<br>[括号生成](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-12-1-generateParenthesis.py)，递归式解法
 
