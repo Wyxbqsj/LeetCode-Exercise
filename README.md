@@ -125,7 +125,10 @@ print(li) #结果输出为['dog','cat','cat','dog']
 ## 递归
 （1）[合并两个有序链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/Recursion/2021-12-2-mergeTwoLists.py)
 
-
+## 链表
+（1）相交链表：
+<br>[解法一：简单用一个visited集合记录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-3-getIntersectionNode.py)
+<br>[解法二：双指针]()
 
 
 
