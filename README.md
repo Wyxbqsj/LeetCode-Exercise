@@ -129,6 +129,7 @@ print(li) #结果输出为['dog','cat','cat','dog']
 （1）相交链表：
 <br>[解法一：简单用一个visited集合记录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-3-getIntersectionNode.py)
 <br>[解法二：双指针]()
+<br>[移除链表元素](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-6-removeElements.py),建立一个dummy node来获得前驱结点，另外巩固了指针相关知识。
 
 
 
