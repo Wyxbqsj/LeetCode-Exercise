@@ -130,7 +130,7 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>[解法一：简单用一个visited集合记录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-3-getIntersectionNode.py)
 <br>[解法二：双指针]()
 <br>（2）[移除链表元素](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-6-removeElements.py),建立一个dummy node来获得前驱结点，另外巩固了指针相关知识。
-<br>（3）[反转链表]（https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2012-12-6-reverseList.py），pre,cur,next三个节点来控制
+<br>（3）[反转链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2012-12-6-reverseList.py)，pre,cur,next三个节点来控制
 
 
 
