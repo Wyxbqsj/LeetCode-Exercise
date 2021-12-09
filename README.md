@@ -132,5 +132,26 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（2）[移除链表元素](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-6-removeElements.py),建立一个dummy node来获得前驱结点，另外巩固了指针相关知识。
 <br>（3）[反转链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2012-12-6-reverseList.py)，pre,cur,next三个节点来控制。
 <br>（4）[回文链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-8-isPalindrome.py)，利用快慢指针来找到链表的中点。
+<br>（5）[删除链表中的结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-9-deleteNode.py),不给头结点，只有待删除的结点，通过交换待删除的结点和他的下一个结点来实现删除（只需交换结点的值即可，甚至不用交换，只需将下一个结点的值保存下来，因为待删除的结点即使节点值交换了最后也会被删除）。
+<br>（6）[设计哈希集合](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-9-MyHashSet.py),链地址法：为每个哈希值维护一个链表，并将具有相同哈希值的元素都放入这一链表当中。
+![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1LzcwNV9saW5rZWRfbGlzdC5wbmc?x-oss-process=image/format,png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
