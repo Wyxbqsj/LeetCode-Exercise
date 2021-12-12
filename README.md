@@ -135,7 +135,7 @@ print(li) #结果输出为['dog','cat','cat','dog']
 <br>（5）[删除链表中的结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-9-deleteNode.py),不给头结点，只有待删除的结点，通过交换待删除的结点和他的下一个结点来实现删除（只需交换结点的值即可，甚至不用交换，只需将下一个结点的值保存下来，因为待删除的结点即使节点值交换了最后也会被删除）。
 <br>（6）[设计哈希集合](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-9-MyHashSet.py),链地址法：为每个哈希值维护一个链表，并将具有相同哈希值的元素都放入这一链表当中。
 ![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1LzcwNV9saW5rZWRfbGlzdC5wbmc?x-oss-process=image/format,png)
-<br>（6）[设计哈希映射](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-10-myHashMap.py)，与上一道题的区别在于，存入的是一个键值对，代码用item[]来表示，item[0]是key，item[1]是value。
+<br>（7）[设计哈希映射](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-10-myHashMap.py)，与上一道题的区别在于，存入的是一个键值对，代码用item[]来表示，item[0]是key，item[1]是value。
 ```
 # enumerate() 函数用于将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标
 seasons = ['Spring', 'Summer', 'Fall', 'Winter']
@@ -145,7 +145,7 @@ for i,item in enumerate(seasons): #i是索引，item是具体值
 print(list(enumerate(seasons)))
 # 结果：[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
 ```
-<br>（7）[链表的中间节点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-11-middleNode.py)，注意两种终止条件，当链表有两个中间节点时，while fast and fast.next返回第二个中间结点；while fast.next and fast.next.next返回第一个中间结点，另附上由一个数组nums，将其转成链表的代码：
+<br>（8）[链表的中间节点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-11-middleNode.py)，注意两种终止条件，当链表有两个中间节点时，while fast and fast.next返回第二个中间结点；while fast.next and fast.next.next返回第一个中间结点，另附上由一个数组nums，将其转成链表的代码：
 ```
 def create_linked_list(nums):
     if len(nums) == 0:
@@ -157,7 +157,7 @@ def create_linked_list(nums):
         cur=cur.next
     return head
 ```
-
+<br>（9）[二进制链表转整数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-12-getDecimalValue.py)，可以不用求链表的长度，直接遍历求出结果。
 
 
 
