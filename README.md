@@ -145,6 +145,18 @@ for i,item in enumerate(seasons): #i是索引，item是具体值
 print(list(enumerate(seasons)))
 # 结果：[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
 ```
+<br>（7）[链表的中间节点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-11-middleNode.py)，注意两种终止条件，当链表有两个中间节点时，while fast and fast.next返回第二个中间结点；while fast.next and fast.next.next返回第一个中间结点，另附上由一个数组nums，将其转成链表的代码：
+```
+def create_linked_list(nums):
+    if len(nums) == 0:
+        return None
+    head=ListNode(nums[0])
+    cur=head
+    for i in range(1,len(nums)):
+        cur.next=ListNode(nums[i])
+        cur=cur.next
+    return head
+```
 
 
 
