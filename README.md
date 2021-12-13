@@ -158,7 +158,7 @@ def create_linked_list(nums):
     return head
 ```
 <br>（9）[二进制链表转整数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-12-getDecimalValue.py)，可以不用求链表的长度，直接遍历求出结果。
-
+<br>（10）[两数相加](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-13-addTwoNumbers.py)，注意在题目这种逆序排列的前提下，补全一个链表无需在头结点前面加值为0的dummy结点，只需在链表为空时，再将头结点变为值为0的dummy结点即可，即：head=ListNode(0)。
 
 
 
