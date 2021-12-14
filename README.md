@@ -159,6 +159,9 @@ def create_linked_list(nums):
 ```
 <br>（9）[二进制链表转整数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-12-getDecimalValue.py)，可以不用求链表的长度，直接遍历求出结果。
 <br>（10）[两数相加](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-13-addTwoNumbers.py)，注意在题目这种逆序排列的前提下，补全一个链表无需在头结点前面加值为0的dummy结点，只需在链表为空时，再将头结点变为值为0的dummy结点即可，即：head=ListNode(0)。
+<br>（11）删除链表的倒数第N个结点：为了方便，我们在原有链表前面设置一个dummy node，dummy node的好处在于: 当我们是要删除一个结点时，我们可以定位到被删除结点的前置结点，然后将前置结点的后续指 针指向被删除结点的后续结点，则可完成删除。而头结点无前置结点，因此我们用dummy node指向它来控制它的前驱结点。
+<br>[方法一：栈](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-14-removeNthFromEnd.py)，遍历链表，将链表中的结点依次入栈，最后弹出第n个结点即可
+<br>[方法二：快慢指针](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-14-removeNthFromEnd2.py)，我们设置两个指针，两个指针初始状态都指向dummy node，!!!指针fast先走n步，然后指针fast和指针slow同步往前继续遍历链表，直到fast的后续结点为空，此时指针slow到达被删除结点的前置结点。其实在快慢指针方法中，fast用来控制边界条件，slow用来定位结点。
 
 
 
