@@ -162,7 +162,18 @@ def create_linked_list(nums):
 <br>（11）删除链表的倒数第N个结点：<br>为了方便，我们在原有链表前面设置一个dummy node，dummy node的好处在于: 当我们是要删除一个结点时，我们可以定位到被删除结点的前置结点，然后将前置结点的后续指 针指向被删除结点的后续结点，则可完成删除。而头结点无前置结点，因此我们用dummy node指向它来控制它的前驱结点。
 <br>[方法一：栈](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-14-removeNthFromEnd.py)，遍历链表，将链表中的结点依次入栈，最后弹出第n个结点即可
 <br>[方法二：快慢指针](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-14-removeNthFromEnd2.py)，我们设置两个指针，两个指针初始状态都指向dummy node，!!!指针fast先走n步，然后指针fast和指针slow同步往前继续遍历链表，直到fast的后续结点为空，此时指针slow到达被删除结点的前置结点。其实在快慢指针方法中，fast用来控制边界条件，slow用来定位结点。
-
+<br>（12）两两交换链表中的结点：
+<br>[方法一：栈](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-15-swapPairs.py)，用一个新链表来控制最后的结果，每次pop()出来都接到新链表上。
+<br>[方法二：递归](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-15-swapPairs2.py),学到了链表中交换两个结点的通用操作：
+```
+# 交换x和y的值：
+temp=x; x=y; y=temp
+# 交换链表中nodex和nodey：交换链表中的两个点，需要考虑他们的前后节点，也就是考虑四个结点
+# 比如原链表是：0->x->y-1
+# 交换后：0->y->x->1
+temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
+因此上面这段代码中temp就是记录了0这个node，描述了下交换后的链表之间的关系
+```
 
 
 
