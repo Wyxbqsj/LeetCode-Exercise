@@ -174,7 +174,8 @@ temp=x; x=y; y=temp
 temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
 因此上面这段代码中temp就是记录了0这个node，描述了下交换后的链表之间的关系
 ```
-
+<br>（13）[旋转链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-16-rotateRight.py)，学会了利用快慢指针来找链表倒数第k个结点。
+<br>（14）[删除链表中的重复元素](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-16-deleteDuplicates.py)，第一道链表题中没有看题解，一次提交就通过的题目！开心！！！
 
 
 
