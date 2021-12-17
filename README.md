@@ -176,6 +176,10 @@ temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
 ```
 <br>（13）[旋转链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-16-rotateRight.py)，学会了利用快慢指针来找链表倒数第k个结点。
 <br>（14）[删除链表中的重复元素](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-16-deleteDuplicates.py)，第一道链表题中没有看题解，一次提交就通过的题目！开心！！！
+<br>（15）[分隔链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-17-partition.py)，一定要将新建的链表尾结点的next设为None，这个和后台的判定程序有关，十分重要。
+<br>（16）反转区间内的链表
+<br>[方法一：简单方法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-17-reverseBetween.py)，将中间要反转得部分截取下来，然后反转后再接回去，注意：修改节点当中的next才能修改这个节点指向的下一个节点。last=after只是把after赋值给last,并没有修改指向。
+<br>[方法二：一次遍历，不另外写函数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-17-reverseBetween2.py)，写这种指针指向交换问题：没有固定的顺序，但一定要能保证变量可以访问到每个节点，不要在换的过程中，有些节点就被漏掉了。
 
 
 
