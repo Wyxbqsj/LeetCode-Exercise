@@ -4,7 +4,7 @@
 #### 1. 字符串：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise#%E5%AD%97%E7%AC%A6%E4%B8%B2), [代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/String)
 #### 2. 递归：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%80%92%E5%BD%92)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/Recursion)
 #### 3. 链表：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%93%BE%E8%A1%A8)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/LinkedList)
-#### 4. 二叉树：[题解目录]()，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/BinaryTrees)
+#### 4. 二叉树：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E4%BA%8C%E5%8F%89%E6%A0%91)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/BinaryTrees)
 
 
 
