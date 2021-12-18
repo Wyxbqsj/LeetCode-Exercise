@@ -4,6 +4,10 @@
 #### 1. 字符串：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise#%E5%AD%97%E7%AC%A6%E4%B8%B2), [代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/String)
 #### 2. 递归：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%80%92%E5%BD%92)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/Recursion)
 #### 3. 链表：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%93%BE%E8%A1%A8)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/LinkedList)
+#### 4. 二叉树：[题解目录]()，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/BinaryTrees)
+
+
+
 ## 字符串：
 <br>（1） [罗马数字转整数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-6-romanToInt.py)
 <br>（2） [最长公共前缀](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/String/2021-10-6-longestCommonPrefix.py)
@@ -182,7 +186,7 @@ temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
 <br>[方法二：一次遍历，不另外写函数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-17-reverseBetween2.py)，写这种指针指向交换问题：没有固定的顺序，但一定要能保证变量可以访问到每个节点，不要在换的过程中，有些节点就被漏掉了。
 
 
-
+## 二叉树
 
 
 
