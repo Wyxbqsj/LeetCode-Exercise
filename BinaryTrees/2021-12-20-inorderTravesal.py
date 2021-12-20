@@ -10,6 +10,8 @@ class Solution:
     def inorderTraversal(self, root):
         if not root:
             return []
+        # 函数inorderTraversal()和函数inOrder()是两个函数，不加self的res都是局部变量，均不相同
+        # 加了self后，就是属于Solution类的同一个变量，一个变，另一个也变
         self.res=[]
         self.inOrder(root)
         return self.res
