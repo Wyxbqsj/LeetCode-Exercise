@@ -188,7 +188,7 @@ temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
 
 ## 二叉树
 （1）[二叉树的中序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-20-inorderTravesal.py)，注意最后返回的结果是一个list，不再是通过print输出，递归解法需要额外将结果整合。
-
+<br>（2）[相同的树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-21-isSameTree.py)，递归方法，注意无法通过一种遍历判断两棵树是否相同。
 
 
 
