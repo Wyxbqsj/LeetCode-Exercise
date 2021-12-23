@@ -193,6 +193,9 @@ temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
 ```
 L=L[::-1] 为真则为回文数组，假则不是
 ```
+（4）二叉树的最大深度：
+<br>[深度遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-23-maxDepth.py)，递归解法。
+<br>[层次遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-23-maxDepth2.py)，迭代解法。
 
 
 
