@@ -196,6 +196,10 @@ L=L[::-1] 为真则为回文数组，假则不是
 （4）二叉树的最大深度：
 <br>[深度遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-23-maxDepth.py)，递归解法。
 <br>[层次遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-23-maxDepth2.py)，迭代解法。
+<br>（5）[将有序数组转换成二叉搜索树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-24-sortedArrayToBST.py)，注意二叉搜索树的定义：二叉搜索树（Binary Search Tree），简写BST，是满足某些条件的特殊的二叉树：任何一个节点的左子树上的点，都必须小于当前节点。任何一个节点的右子树上的点，都必须大于当前节点。任何一棵子树，也都满足上面两个条件。另外二叉查找树中，是不存在重复节点的。
+<br>（6）平衡二叉树：注意本题平衡二叉树的定义，是树上每个结点的左右子树高度差都不能大于1
+<br>[自顶向下递归](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-24-isBalanced.py)
+<br>[自底向上递归](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-24-isBalanced2.py)
 
 
 
