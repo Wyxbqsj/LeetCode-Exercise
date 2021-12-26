@@ -10,6 +10,7 @@ class TreeNode:
         self.right = right
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
+        # 计算高度的depth都是自底向上计算的，这里所说的自顶向下，主要是isBalanced()函数的else部分
         def depth(r):
             if not r:
                 return 0
@@ -21,4 +22,5 @@ class Solution:
         if not root:
             return True
         else:
+            # 三个判别式，从左到右执行，先判断头结点是否平衡，再分别判断两个子树，这是典型的自顶向下
             return abs(depth(root.left)-depth(root.right)<=1) and self.isBalanced(root.left) and self.isBalanced(root.right)
