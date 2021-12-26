@@ -201,7 +201,7 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>[自顶向下递归](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-24-isBalanced.py)
 <br>[自底向上递归](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-24-isBalanced2.py)
 <br>（7）[二叉树的最小深度](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-26-minDepth.py)，注意：最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
-
+<br>[二叉树的最小深度：更简洁的答案](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-26-minDepth2.py)
 
 
 
