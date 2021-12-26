@@ -19,9 +19,11 @@ class Solution:
         def depth(r):
             if not r:
                 return 0
-            leftheight=depth(r.left)
-            rightheight=depth(r.right)
+            leftheight=depth(r.left) # 先判断左子树是否平衡
+            rightheight=depth(r.right) # 先判断右子树是否平衡
             # -1表示子树不平衡
+            # 三个判断式：先判断叶子结点是不是平衡树（并且拿到了叶子结点的高度），再判断头结点是否平衡
+            # 典型的自底向上
             if leftheight==-1 or rightheight==-1 or abs(leftheight-rightheight)>1:
                 return -1
             else:
