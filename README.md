@@ -207,7 +207,7 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（10）[二叉树的后序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-28-postorderTraversal.py)，注意后序也依然是先左子树再右子树，前中后序只是根节点访问的时机不同。
 <br>（11）[翻转二叉树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-invertTree.py)，注意递归终止条件。
 <br>（12）[二叉搜索树的最近公共祖先](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-lowestCommonAncestor.py)，注意题目里是二叉搜索树，利用二叉搜索树的性质来做题。
-
+<br>（13）[左叶子之和](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-sumOfLeftLeaves.py)，一定注意题目的要求是不是叶子结点。
 
 
 
