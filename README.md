@@ -208,6 +208,11 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（11）[翻转二叉树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-invertTree.py)，注意递归终止条件。
 <br>（12）[二叉搜索树的最近公共祖先](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-lowestCommonAncestor.py)，注意题目里是二叉搜索树，利用二叉搜索树的性质来做题。
 <br>（13）[左叶子之和](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-sumOfLeftLeaves.py)，一定注意题目的要求是不是叶子结点。
+<br>（14）[二叉搜索树中的众数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-30-findMode.py)，注意遇到二叉搜索树的问题，一定记得：中序遍历二叉搜索树BST得到的是有序数组，再用解决有序数组的方法来解决即可。
+
+
+
+
 
 
 
