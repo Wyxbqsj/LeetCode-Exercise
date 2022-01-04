@@ -18,6 +18,10 @@ class Solution:
                     return False
         if not root:
             return False
+        # 一个树是另一个树的子树 则
+        # 要么这两个树相等
+        # 要么这个树是左树的子树
+        # 要么这个树是右树的子树
         return self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot) or isSametree(root,subRoot)
             
             
