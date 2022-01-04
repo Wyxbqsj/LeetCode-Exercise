@@ -209,7 +209,9 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（12）[二叉搜索树的最近公共祖先](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-lowestCommonAncestor.py)，注意题目里是二叉搜索树，利用二叉搜索树的性质来做题。
 <br>（13）[左叶子之和](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-29-sumOfLeftLeaves.py)，一定注意题目的要求是不是叶子结点。
 <br>（14）[二叉搜索树中的众数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-30-findMode.py)，注意遇到二叉搜索树的问题，一定记得：中序遍历二叉搜索树BST得到的是有序数组，再用解决有序数组的方法来解决即可。
-
+<br>（15）[二叉树的直径](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2021-12-30-diameterOfBinaryTree.py)，注意递归的返回值根据自己需要来控制，不是必须只能返回一个解。
+<br>（16）[二叉树的坡度](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-4-findTilt.py)，递归函数的作用也不是很死板的必须作为返回最终结果来使用，可以只是返回中间所需要的过程值，但是对最终结果进行了汇总处理。一定要注意思考！！！！
+<br>（17）[另一棵树的子树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-4-isSubtree.py),一个树是另一个树的子树 则要么这两个树相等; 要么这个树是左树的子树;要么这个树是右树的子树。
 
 
 
