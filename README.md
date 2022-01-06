@@ -214,6 +214,8 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（17）[另一棵树的子树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-4-isSubtree.py),一个树是另一个树的子树 则要么这两个树相等; 要么这个树是左树的子树;要么这个树是右树的子树。
 <br>（18）[合并二叉树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-5-mergeTrees.py)
 <br>（19）[根据二叉树创建字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-5-tree2str.py)
+<br>（20）[二叉树的层平均值](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-6-averageOfLevels.py)，简单的层次遍历即可。
+
 
 
 
