@@ -5,7 +5,7 @@
 #### 2. 递归：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%80%92%E5%BD%92)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/Recursion)
 #### 3. 链表：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%93%BE%E8%A1%A8)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/LinkedList)
 #### 4. 二叉树：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E4%BA%8C%E5%8F%89%E6%A0%91)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/BinaryTrees)
-#### 5. 动态规划：[题解目录](),[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/DynamicPlanning)
+#### 5. 动态规划：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92),[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/DynamicPlanning)
 
 
 
@@ -221,7 +221,20 @@ L=L[::-1] 为真则为回文数组，假则不是
 
 
 ## 动态规划
+（1）[不同的二叉搜索树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-6-numTrees.py)
+```
+解题思路：设n个结点所组成的二叉搜索树的个数为G(n),F(i)是以i为根节点的二叉搜索树的个数
+则G(n)=F(1)+F(2)+...+F(n)
+(1) 当i=1时,1-n中没有比1更小的数，则左子树结点个数为0，右子树结点个数为n-1
+(2) 当i=n时,1-n中没有比n更大的数，则左子树结点个数为n-1，右子树结点个数为0
+(3) 当i是1-n中的某个数，则左子树结点个数为i-1，右子树结点个数为n-i
+因此对应于上述三种情况：
+F(1)=G(0)*G(n-1)
+F(n)=G(n-1)*G(0)
+F(i)=G(i-1)*G(n-i)
 
+故：G(n)=G(0)*G(n-1)+...+G(i-1)*G(n-i)+...+G(n-1)*G(0)
+```
 
 
 
