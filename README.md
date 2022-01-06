@@ -5,6 +5,8 @@
 #### 2. 递归：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%80%92%E5%BD%92)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/Recursion)
 #### 3. 链表：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%93%BE%E8%A1%A8)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/LinkedList)
 #### 4. 二叉树：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E4%BA%8C%E5%8F%89%E6%A0%91)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/BinaryTrees)
+#### 5. 动态规划：[题解目录](),[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/DynamicPlanning)
+
 
 
 
@@ -218,7 +220,7 @@ L=L[::-1] 为真则为回文数组，假则不是
 
 
 
-
+## 动态规划
 
 
 
