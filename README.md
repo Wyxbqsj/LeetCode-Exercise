@@ -217,6 +217,10 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（18）[合并二叉树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-5-mergeTrees.py)
 <br>（19）[根据二叉树创建字符串](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-5-tree2str.py)
 <br>（20）[二叉树的层平均值](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-6-averageOfLevels.py)，简单的层次遍历即可。
+<br>（21）验证二叉搜索树：
+<br>[方法一：递归验证](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-7-isValidBST.py)，设计一个递归函数 helper(root,lower,upper)，考虑以root为根节点的子树，判断子树中所有结点的值都在lower-upper的范围内。该函数递归调用的入口为 helper(root, -inf, +inf)， inf 表示一个无穷大的值。
+<br>[方法二：中序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-7-isValidBST2.py)，中序遍历判断升序。
+
 
 
 
