@@ -1,5 +1,10 @@
 # LeetCode-Exercise
 力扣刷题争取每日一练，从【字符串】开始进行记录整理
+## 一些刷题中遇到的有趣的知识：
+<br>[【二叉树的莫里斯遍历】](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-MorrisTraversal.py)，可以将二叉树遍历的空间复杂度降到O(1).
+<br>[【链表的快慢指针】](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-14-removeNthFromEnd2.py)，一般可用来找链表中点或者倒数第几个结点，在快慢指针方法中，fast用来控制边界条件，slow用来定位结点。
+
+
 ## 目录
 #### 1. 字符串：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise#%E5%AD%97%E7%AC%A6%E4%B8%B2), [代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/String)
 #### 2. 递归：[题解目录](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/README.md#%E9%80%92%E5%BD%92)，[代码目录](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/Recursion)
@@ -220,6 +225,12 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（21）验证二叉搜索树：
 <br>[方法一：递归验证](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-7-isValidBST.py)，设计一个递归函数 helper(root,lower,upper)，考虑以root为根节点的子树，判断子树中所有结点的值都在lower-upper的范围内。该函数递归调用的入口为 helper(root, -inf, +inf)， inf 表示一个无穷大的值。
 <br>[方法二：中序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-7-isValidBST2.py)，中序遍历判断升序。
+<br>恢复二叉搜索树：
+<br>[方法一：中序遍历用数组存结果获得异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree.py)，时间复杂度O(n),空间复杂度O(n)。
+<br>[方法二：中序遍历用pre指针获得异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree2.py)，时间复杂度O(n)，空间复杂度O(H),H是二叉树的高度。
+<br>[方法三：莫里斯中序遍历+pre指针获取异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree3.py)，时间复杂度O(n)，空间复杂度O(1)。
+
+
 
 
 
