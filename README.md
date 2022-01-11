@@ -229,6 +229,9 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>[方法一：中序遍历用数组存结果获得异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree.py)，时间复杂度O(n),空间复杂度O(n)。
 <br>[方法二：中序遍历用pre指针获得异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree2.py)，时间复杂度O(n)，空间复杂度O(H),H是二叉树的高度。
 <br>[方法三：莫里斯中序遍历+pre指针获取异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree3.py)，时间复杂度O(n)，空间复杂度O(1)。
+<br>[二叉树的层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-levelOrder.py)
+<br>[二叉树的锯齿形层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-zigzagLevelOrder.py)
+
 
 
 
