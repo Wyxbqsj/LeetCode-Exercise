@@ -225,12 +225,12 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>（21）验证二叉搜索树：
 <br>[方法一：递归验证](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-7-isValidBST.py)，设计一个递归函数 helper(root,lower,upper)，考虑以root为根节点的子树，判断子树中所有结点的值都在lower-upper的范围内。该函数递归调用的入口为 helper(root, -inf, +inf)， inf 表示一个无穷大的值。
 <br>[方法二：中序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-7-isValidBST2.py)，中序遍历判断升序。
-<br>恢复二叉搜索树：
+<br>（22）恢复二叉搜索树：
 <br>[方法一：中序遍历用数组存结果获得异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree.py)，时间复杂度O(n),空间复杂度O(n)。
 <br>[方法二：中序遍历用pre指针获得异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree2.py)，时间复杂度O(n)，空间复杂度O(H),H是二叉树的高度。
 <br>[方法三：莫里斯中序遍历+pre指针获取异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree3.py)，时间复杂度O(n)，空间复杂度O(1)。
-<br>[二叉树的层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-levelOrder.py)
-<br>[二叉树的锯齿形层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-zigzagLevelOrder.py)
+<br>（23）[二叉树的层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-levelOrder.py)
+<br>（24）[二叉树的锯齿形层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-zigzagLevelOrder.py)
 
 
 
