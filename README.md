@@ -231,7 +231,7 @@ L=L[::-1] 为真则为回文数组，假则不是
 <br>[方法三：莫里斯中序遍历+pre指针获取异常结点](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-8-recoverTree3.py)，时间复杂度O(n)，空间复杂度O(1)。
 <br>（23）[二叉树的层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-levelOrder.py)
 <br>（24）[二叉树的锯齿形层序遍历](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-11-zigzagLevelOrder.py)
-
+<br>（25）[从前序与中序遍历序列构造二叉树](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/BinaryTrees/2022-1-12-buildTree.py)，preorder第一个元素为root，在inorder里面找到root的index，在index之前的为左子树（长l1），之后为右子树（长l2）。preorder[1]到preorder[l1]为左子树,之后为右子树，分别递归。
 
 
 
