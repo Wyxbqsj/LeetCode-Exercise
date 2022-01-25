@@ -253,6 +253,7 @@ F(i)=G(i-1)*G(n-i)
 
 故：G(n)=G(0)*G(n-1)+...+G(i-1)*G(n-i)+...+G(n-1)*G(0)
 ```
+<br>（2）[最大子数组和](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-25-maxSubArray.py)，动态规划四步走，一步一步做下来第一道题。
 
 
 
