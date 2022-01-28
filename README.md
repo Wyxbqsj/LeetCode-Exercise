@@ -257,6 +257,7 @@ F(i)=G(i-1)*G(n-i)
 <br>（3）[爬楼梯](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-26-climbStairs.py)，注意边界条件的考虑
 <br>（4）[杨辉三角](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-27-generate.py)
 <br>（5）[杨辉三角II](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-27-getRow.py)
+<br>（6）[买卖股票的最佳时机](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-28-maxProfit.py),注意直接调用min函数会有额外的O(N)的时间复杂度
 
 
 
