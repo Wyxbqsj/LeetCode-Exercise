@@ -258,7 +258,11 @@ F(i)=G(i-1)*G(n-i)
 <br>（4）[杨辉三角](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-27-generate.py)
 <br>（5）[杨辉三角II](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-27-getRow.py)
 <br>（6）[买卖股票的最佳时机](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-28-maxProfit.py),注意直接调用min函数会有额外的O(N)的时间复杂度
-
+<br>（7）[比特位计数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-1-29-countBits.py)，注意i//2得到是int型，而i/2得到的是float型。
+```
+1、如果 i 为偶数，那么f(i) = f(i/2) ,因为 i/2 本质上是i的二进制左移一位，低位补零，所以1的数量不变。
+2、如果 i 为奇数，那么f(i) = f(i - 1) + 1， 因为如果i为奇数，那么 i - 1必定为偶数，而偶数的二进制最低位一定是0，那么该偶数 +1 后最低位变为1且不会进位，所以奇数比它上一个偶数bit上多一个1，即 f(i) = f(i - 1) + 1。
+```
 
 
 
