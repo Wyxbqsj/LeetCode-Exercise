@@ -265,7 +265,7 @@ F(i)=G(i-1)*G(n-i)
 ```
 <br>（8）[使用最小花费爬楼梯](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-8-minCostClimbingStairs.py)，注意题目中给的出发位置只是提供初始值的设置，并非需要分情况讨论。
 <br>（9）[斐波那契数列](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-9-fib.py)，注意一定要有这个边界判断，否则当n=0时，dp[1]是没有意义的，无法赋值。
-<br>（10）[除数博弈]
+<br>（10）[除数博弈](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-10-divisorGame.py)，两种方法：数学方法，偶数先手必胜；动态规划方法：略复杂，需要两重循环，注意看代码！！
 
 
 
