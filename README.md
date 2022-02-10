@@ -264,6 +264,8 @@ F(i)=G(i-1)*G(n-i)
 2、如果 i 为奇数，那么f(i) = f(i - 1) + 1， 因为如果i为奇数，那么 i - 1必定为偶数，而偶数的二进制最低位一定是0，那么该偶数 +1 后最低位变为1且不会进位，所以奇数比它上一个偶数bit上多一个1，即 f(i) = f(i - 1) + 1。
 ```
 <br>（8）[使用最小花费爬楼梯](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-8-minCostClimbingStairs.py)，注意题目中给的出发位置只是提供初始值的设置，并非需要分情况讨论。
+<br>（9）[斐波那契数列](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-9-fib.py)，注意一定要有这个边界判断，否则当n=0时，dp[1]是没有意义的，无法赋值。
+<br>（10）[除数博弈]
 
 
 
