@@ -288,6 +288,13 @@ F(i)=G(i-1)*G(n-i)
 <br>（10）[除数博弈](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-10-divisorGame.py)，两种方法：数学方法，偶数先手必胜；动态规划方法：略复杂，需要两重循环，注意看代码！！
 <br>（11）[第N个泰波那契数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-10-tribonacci.py)，由于 T(n)只和前三项有关，因此可以使用「滚动数组思想」将空间复杂度优化成 O(1)
 <br>（12）[三步问题](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-14-waysToStep.py)，这道题次要考察动态规划，主要是考察为什么可以在过程中取模而不影响最终结果，（python）只在最终return的结果上取模就超时了。
+<br>（13）[翻转数位](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/DynamicPlanning/2022-2-15-reverseBits.py)，注意二进制的一些操作！！
+```
+a,b是两个整型数字
+a&b（异或）的意思就是 把两个数字转化成二进制，然后逐个对比二进制的每一位，如果都是1，则为1，如果有一个为0，就是0
+！！！(num&1)==1 判断num转成二进制后最后一位是否为1
+！！！num=num//2 将num转成二进制后的二进制数向右移动一位 （在c++/JAVA中写成：num>>=1）
+```
 
 
 
