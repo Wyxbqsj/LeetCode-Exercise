@@ -6,8 +6,10 @@
 <br>3.[【寻找两个有序数组中的第 k 小的数】](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/Hard_Leetcode/2022-2-11-findMedianSortedArrays2.py)，假设两个有序数组分别是A和B。要找到第 k 个元素，我们可以比较 A[k/2−1] 和B[k/2−1]。
 <br>4.[【进阶版二分查找（一）：第一个错误版本】](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/2022-2-23-firstBadVersion.py)：1.注意不能写mid=(left+right)//2, 当left和right都是int，两个值的初始值都超过int限定大小的一半，那么left+right就会发生溢出，所以应该用left+(right-left)//2来防止求中值时候的溢出。2.这是二分中较难的题，找的是分割点，而非某个值，就像[*****######]这样的一个有序数组，查找第一个#号的位置。3. 这个题目返回left或right都可以，因为最后的终止条件是left==high.
 ```
-遇到时间复杂度要求为log(n)就要想到二分，可以用二分的情况：【可以将一个数组在某个点，有标准将左右两边的数区分开】，比如最简单的在有序数组num中查找target，标准即：若target存在于num中，则num中在target左边的都小于target，右边的数都大于target。
+遇到时间复杂度要求为log(n)就要想到二分，可以用二分的情况：【可以将一个数组在某个点，有标准将左右两边的数区分开】
+比如最简单的在有序数组num中查找target，标准即：若target存在于num中，则num中在target左边的都小于target，右边的数都大于target。
 ```
+<br>[【进阶版二分查找（二）：搜索旋转排序数组】](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/search.py)：两次二分：第一次用二分找分割点，第二次找target值。
 
 
 
@@ -25,7 +27,7 @@
 由于 A[k/2−1] 和 B[k/2−1] 的前面分别有 A[0..k/2−2] 和 B[0..k/2−2]，即 k/2−1 个元素，
 对于A[k/2−1] 和 B[k/2−1] 中的较小值，最多只会有 (k/2−1)+(k/2−1)≤k−2 个元素比它小，那么它就不能是第 k 小的数了，最多是第k-1小的数。
 ```
-
+<br>2.[和至少为K的最短子数组](https://github.com/Wyxbqsj/LeetCode-Exercise/tree/main/Hard_Leetcode)：前缀和+双端单调队列，看到子数组用前缀和，看到范围最小用单调队列
 
 
 
