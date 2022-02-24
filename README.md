@@ -219,6 +219,18 @@ temp.next=nodey; nodex.next=nodey.next;nodey.next=nodex
 <br>（16）反转区间内的链表
 <br>[方法一：简单方法](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-17-reverseBetween.py)，将中间要反转得部分截取下来，然后反转后再接回去，注意：修改节点当中的next才能修改这个节点指向的下一个节点。last=after只是把after赋值给last,并没有修改指向。
 <br>[方法二：一次遍历，不另外写函数](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2021-12-17-reverseBetween2.py)，写这种指针指向交换问题：没有固定的顺序，但一定要能保证变量可以访问到每个节点，不要在换的过程中，有些节点就被漏掉了。
+<br>（17）[环形链表](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2022-2-24-hasCycle2.py)：快慢指针，相遇则存在环
+<br>（18）环形链表II：找到环形链表的入环点
+<br>[方法一](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2022-2-24-detectCycle.py)：额外空间消耗，哈希表，visited=set()
+<br>[方法二](https://github.com/Wyxbqsj/LeetCode-Exercise/blob/main/LinkedList/2022-2-24-detectCycle2.py)：快慢指针，两次相遇
+
+
+
+
+
+
+
+
 
 
 ## 二叉树
